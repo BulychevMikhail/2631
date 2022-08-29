@@ -5,9 +5,9 @@ def test_authorisation(web_browser):
 
     page = AuthPage(web_browser)
 
-    page.email.send_keys('bulychev73@gmail.com')
+    page.email.send_keys('bulychev73@')
 
-    page.password.send_keys("Kott22011980")
+    page.password.send_keys("Kot")
 
     page.btn.click()
 
